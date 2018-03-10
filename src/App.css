@@ -20,7 +20,7 @@ code {
 .page {
     background: #fff;
     padding: 40px 0;
-    margin: 0 10%;
+    margin: 0;
     min-height: calc(100vh - 134px);
 }
 
@@ -43,8 +43,8 @@ code {
     width: 80px;
     margin: auto;
     position: absolute;
-    top: -60px; /* To negate the footer height to make it visually centered */
-    left: 0; 
-    bottom: 0; 
+    top: -40px;
+    left: 0;
+    bottom: 0;
     right: 0;
 }

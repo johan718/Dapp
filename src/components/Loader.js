@@ -5,6 +5,7 @@ import splash from '../animations/splash.gif';
 function Loader(props) {
   const style = {
     display: props.loading ? 'flex' : 'none',
+    top: props.top ? props.top : '-60px',
   };
 
   return (
